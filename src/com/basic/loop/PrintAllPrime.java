@@ -13,9 +13,7 @@ public class PrintAllPrime {
         int end = sc.nextInt();
 
         checkAllPrime(start, end);
-
     }
-
     private static void checkAllPrime(int start, int end) {
         for (int i = start; i <= end; i++) {
             int count = 0;

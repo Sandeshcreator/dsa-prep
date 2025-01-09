@@ -13,14 +13,10 @@ public class InverseNumber {
             int od = n % 10;
             int id = pos;
             int ip = od;
-
-            inv = inv + id * (int)Math.pow(10, ip - 1);
-
-
+            inv = inv + id * (int) Math.pow(10, ip - 1);
             n = n / 10;
             pos++;
         }
-
         System.out.println(inv);
 
     }
