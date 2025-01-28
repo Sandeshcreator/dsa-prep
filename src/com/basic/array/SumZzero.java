@@ -16,6 +16,5 @@ public class SumZzero {
             res[n - 1] = 0;
         }
         return res;
-
     }
 }
